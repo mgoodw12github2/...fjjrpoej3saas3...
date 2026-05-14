@@ -3,7 +3,7 @@ name: Zo Computer Automation
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */5 * * *'  # Every 5 hours
+    - cron: '0 */2 * * *'
 
 jobs:
   selenium:
