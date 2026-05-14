@@ -98,8 +98,8 @@ try:
     driver.get("https://dedinside.zo.computer")
     print("Visited dedinside.zo.computer")
 
-    print("Waiting 20 seconds...")
-    time.sleep(20)
+    print("Waiting 50 seconds...")
+    time.sleep(50)
 
     driver.save_screenshot("final.png")
     print("Screenshot saved as final.png")
